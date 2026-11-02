@@ -1,0 +1,2 @@
+02/11/2026
+Esto lo hago para ver que sale con esa persona, aunque recien la haya conocido hace casi un mes, igualmente quisiera ver si hay un rayo de esperanza en que pueda salir algo bueno, por eso cree este codigo para invitarla y ver le parece.

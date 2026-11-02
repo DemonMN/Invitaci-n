@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qua sera?</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="pantalla1" class="carta">
+        <h1>¡Holitaaa!</h1>
+        <p>Tengo una propuesta irresistible...</p>
+        <p class="pregunta">¿Quieres saber que es? 🤔</p>
+        <div class="boton1">
+        <button id="btnIntriga" onclick="mostrarPantalla2()">Va, me intriga la curiosidad 🤭</button>
+        </div>
+    </div>
+
+    <div id="pantalla2" class="carta hidden-section">
+    <h2>¡ES UNA DULCE TENTACIÓN!</h2>
+    <img src="imagenes/rollos.jpg" alt="Rollo" id="imagenTarjeta">
+
+        <!-- Gato y cuadro de texto flotante -->
+    <div id="contenedorExito" class="oculta">
+        <div class="cuadro-texto-redondeado">
+            <p id="mensajeRespuesta"></p>
+        </div>
+        <img src="imagenes/gatoS.png" alt="Gato feliz" class="gato-flotante">
+    </div>
+
+    <p>¿Te agradaría salir a comer unos deliciosos rollos conmigo?</p>
+    
+    <div class="boton">
+        <button id="btnSi" onclick="aceptarInvitacion()">Sí, porque no 🤭</button>
+        <button id="btnNo" onclick="rechazarInvitacion()">No lo sé 🥺</button>
+    </div>
+</div>
+
+    <p id="mensajeRespuesta" class ="oculta"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
