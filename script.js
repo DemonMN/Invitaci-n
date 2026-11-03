@@ -27,7 +27,7 @@ function aceptarInvitacion() {
     contenedorExito.classList.remove("oculta");
 
     //Me envia notificación al correo de gmail
-    fetch("https://formspree.io/f/xljjozeq", {
+    fetch("https://formspree.io/f/xeaapndb", {
         method: "POST",
         headers:{"Content-Type": "application/json" },
         body: JSON.stringify({
@@ -50,7 +50,7 @@ function rechazarInvitacion() {
     // Nota: Al no tocar para nada a 'contenedorExito', el gato se queda completamente oculto.
 
     // 3. Notificación Formspree
-    fetch("https://formspree.io/f/xljjozeq", {
+    fetch("https://formspree.io/f/xeaapndb", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -59,5 +59,3 @@ function rechazarInvitacion() {
         })
     }).catch(err => console.error(err));
 }
-
-//https://formspree.io/f/mbggpkvr
